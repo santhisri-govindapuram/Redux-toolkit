@@ -14,4 +14,6 @@ Use useSelector to access the cart state in components for displaying cart conte
 
 # Images
 
-![home](images/home%20page.jpg)
+![Home Page](images/home.jpg)
+![Cart Page](images/cartpage.jpg)
+
