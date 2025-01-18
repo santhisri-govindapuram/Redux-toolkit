@@ -11,3 +11,9 @@ In components, dispatch actions to modify the state (e.g., adding products to th
 
 # Access State: 
 Use useSelector to access the cart state in components for displaying cart contents.
+
+# Images
+
+![Home Page](images/home.jpg)
+![Cart Page](images/cartpage.jpg)
+
