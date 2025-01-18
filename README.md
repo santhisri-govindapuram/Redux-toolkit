@@ -1,8 +1,13 @@
-# React + Vite
+# workflow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Create Store: 
+Set up a central store using configureStore() from Redux Toolkit to manage application state.
 
-Currently, two official plugins are available:
+# Create Slice:
+Use createSlice() to define state and reducers (actions) for managing the cart, such as adding and removing items.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Dispatch Actions: 
+In components, dispatch actions to modify the state (e.g., adding products to the cart).
+
+# Access State: 
+Use useSelector to access the cart state in components for displaying cart contents.
